@@ -1,0 +1,121 @@
+:root {
+  font-size: 16px;
+}
+
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  top: 0;
+  overflow-x: hidden;
+  background-color: rgb(19, 19, 87);
+}
+.App {
+  width: 100vw;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  color: red;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
+  color: #ed5656;
+}
+
+.jumbotron {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background-color: rgb(19, 19, 87);
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 902px) {
+  .jumbotron {
+    flex-direction: column;
+    margin: 0 !important;
+    padding: 20px !important;
+  }
+
+  .introdiv,
+  .jumbotron,
+  .nav {
+    width: 100% !important;
+  }
+
+  .nav {
+    margin: 20px 0 0 0 !important;
+    height: 10%;
+  }
+
+  .link {
+    align-self: center;
+  }
+  .link h4 {
+    font-size: 1.6rem;
+  }
+
+  .introdiv {
+    height: 90%;
+    margin: 0 !important;
+  }
+
+  .nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

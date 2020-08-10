@@ -1,0 +1,18 @@
+.introdiv {
+  width: 80%;
+  background-color: pink;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0;
+  /* color: aquamarine; */
+}
